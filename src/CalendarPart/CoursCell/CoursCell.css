@@ -1,0 +1,34 @@
+.courseCellContainer {
+  background-color: cadetblue;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+  width: 95%;
+  flex-direction: column;
+  display: flex;
+}
+
+.centerCellContentP {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.hoursCourseCell {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 1.25em;
+}
+
+.isActive {
+  border: black 0.5vh dashed;
+}
+
+/*# sourceMappingURL=CoursCell.css.map */

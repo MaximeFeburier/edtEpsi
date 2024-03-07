@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import { CalendarPart } from "./CalendarPart/CalendarPart";
-import { CourseCell } from "./CalendarPart/CoursCell/CoursCell";
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 
 function App() {
-  return (
-    <div className="App">
-      <CalendarPart />
-      <CourseCell />
-    </div>
-  );
+    return (
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <CalendarPart/>
+        </LocalizationProvider>
+    );
 }
 
 export default App;

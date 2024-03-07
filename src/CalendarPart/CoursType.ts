@@ -6,5 +6,6 @@ export type CoursType = {
   levelAcademyId: number;
   profName: string;
   room: string;
-  time: string;
+  startTime: string;
+  endTime: string;
 };
